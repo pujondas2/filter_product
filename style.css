@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Poppins';
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 400px;
+    height: 500px;
+    background-color: #fff;
+    box-shadow: 4px 4px 30px rgb(0, 0, 0, 0.06);
+    padding: 30px 40px;
+    border-radius: 30px;
+    overflow-y: scroll;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.container form {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.container form label i {
+    cursor: pointer;
+}
+
+.container form input {
+    border: 0;
+    outline: 0;
+    padding-left: 10px;
+    font-family: "Poppins";
+    font-size: 16px;
+}
+
+.single-product img {
+    width: 70px;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.single-product {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.single-product:last-child {
+    border: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.p-details {
+    margin-left: 20px;
+}
+
+.p-details h2 {
+    font-size: 20px;
+}
